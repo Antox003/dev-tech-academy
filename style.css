@@ -141,6 +141,7 @@ a.current,a:hover{
     justify-content: center;
     color: rgb(206, 235, 76);
     font-size: 40px;
+    text-align: center;
 }
 
 #section2 p{
@@ -202,6 +203,7 @@ a.current,a:hover{
     justify-content: center;   
     color: rgb(206, 235, 76);
     font-size: 40px;
+    text-align: center;
 }
 
 #section4 h4{
@@ -362,4 +364,8 @@ font-size: 25px;
 
 .footer .dx p{
     color: white;
+} 
+
+.footer .dx p .color{
+    color: rgb(206, 235, 76);
 } 
