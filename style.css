@@ -82,6 +82,7 @@ a.current,a:hover{
     justify-content: center;
     text-shadow: 7px 7px 4px rgb(0, 0, 0);
     padding-top: 3rem;
+    text-align: center;
 }
 
 .title-h3{
