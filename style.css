@@ -159,6 +159,7 @@ a.current,a:hover{
     background: url('./img/background\ section\ \(reverse\).png') center center/cover no-repeat;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
 }
 
 #section3 .dx img{
