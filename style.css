@@ -352,7 +352,7 @@ a.current,a:hover{
     justify-content: center;
     align-items: center;
     background: url('./img/background\ section.png')center center/cover no-repeat;
-    height: auto;
+    height: 70vh;
   }
   
   .container-videocorsi{
