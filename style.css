@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    background: black;
+}
 /*HOME*/
 
 nav{
@@ -67,7 +69,7 @@ a.current,a:hover{
 
 
 #titolo{
-    background: url('https://wallpaper.dog/large/10823534.png') center center/cover;
+    background: url('./img/sfondo_home.png') center center/cover;
     height: auto;
     padding-bottom: 2rem;
 }
@@ -95,23 +97,31 @@ a.current,a:hover{
 #section1{
     background: #202020;
     height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    background: url('./img/background\ section.png') center center/cover no-repeat;
+    display: flex;
+}
+
+#section1 img{
+    width: 80%;
+    padding-left: 1rem;
 }
 
 #section1 .domanda{
     display: flex;
     justify-content: center;
+    text-align: center;
     color: rgb(206, 235, 76);
-    font-size: 35px;
+    font-size: 40px;
+    padding-top: 1rem;
 }
 
 #section1 p{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #section1  .color{
@@ -130,12 +140,12 @@ a.current,a:hover{
     display: flex;
     justify-content: center;
     color: rgb(206, 235, 76);
-    font-size: 35px;
+    font-size: 40px;
 }
 
 #section2 p{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     padding-top: 1rem;
@@ -143,25 +153,40 @@ a.current,a:hover{
 
 /*SECTION 2*/
 #section3{
-    background: #202020;
+    background: black;
     height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    background: url('./img/background\ section\ \(reverse\).png') center center/cover no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section3 .dx img{
+    width: 80%;
+}
+
+#section3 .sx{
+    width: 100%;
 }
 
 #section3 .domanda{
     display: flex;
     justify-content: center;
+    text-align: center;
     color: rgb(206, 235, 76);
-    font-size: 35px;
+    font-size: 40px;
+    padding-top: 1rem;
 }
 
 #section3 p{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     padding-top: 1rem;
+}
+
+#section3  .color{
+    color: rgb(206, 235, 76);
 }
 
 /*SECTION 4*/
@@ -172,37 +197,14 @@ a.current,a:hover{
     padding-bottom: 1rem;
 }
 
-#section4 .domanda{
+#section4 .title{
     display: flex;
-    justify-content: center;
+    justify-content: center;   
     color: rgb(206, 235, 76);
-    font-size: 35px;
+    font-size: 40px;
 }
 
-#section4 p{
-    color: white;
-    font-size: 25px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-/*SECTION 5*/
-#section5{
-    background: #202020;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#section5 .domanda{
-    display: flex;
-    justify-content: center;
-    color: rgb(206, 235, 76);
-    font-size: 35px;
-}
-
-#section5 h4{
+#section4 h4{
     color: white;
     font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
@@ -210,29 +212,73 @@ a.current,a:hover{
     padding-top: 1rem;
 }
 
-#section5  .color{
+#section4  .color{
     color: rgb(206, 235, 76);
 }
+/*SECTION MAX*/
+#sectionmax{
+    display: flex;
+    justify-content: space-around;
+    background: url('./img/background\ section.png') center center/cover no-repeat;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
 
+/*SECTION 5*/
+#section5{
+    background: #202020;
+    height: auto;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 4px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+#section5 .domanda{
+    display: flex;
+    justify-content: center;
+    color: rgb(206, 235, 76);
+    font-size: 40px;
+    text-align: center;
+}
+
+#section5 p{
+    color: white;
+    font-size: 30px;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+}
 
 /*SECTION 6*/
 #section6{
     background: #202020;
     height: auto;
-    padding-top: 1rem;
+    margin-top: 1rem;
     padding-bottom: 1rem;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 4px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
 }
 
 #section6 .domanda{
     display: flex;
     justify-content: center;
     color: rgb(206, 235, 76);
-    font-size: 35px;
+    font-size: 40px;
+    text-align: center;
 }
 
 #section6 p{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     padding-top: 1rem;
@@ -252,16 +298,7 @@ a.current,a:hover{
 
 
 /*SECTION 7*/
-#section7{
-    display: flex;
-    justify-content: center;  
-    background: #202020;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem; 
-    color: rgb(206, 235, 76);
-    font-size: 40px;
-}
+
 
 /*SECTION 8*/
 #section8{
@@ -275,12 +312,13 @@ a.current,a:hover{
     display: flex;
     justify-content: center;
     color: rgb(206, 235, 76);
-    font-size: 35px;
+    font-size: 40px;
+    text-align: center;
 }
 
 #section8 p{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     padding-top: 1rem;

@@ -31,3 +31,11 @@
   .title-h1{
     font-size: 100px;
   }
+
+  #section1 img{
+    display: none;
+  }
+
+  #section3 .dx img{
+    display: none;
+  }
