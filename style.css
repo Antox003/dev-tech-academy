@@ -67,7 +67,7 @@ a.current,a:hover{
     display: none;
 }
 
-
+/*TITLE SECTION*/
 #titolo{
     background: url('./img/sfondo_home.png') center center/cover;
     height: auto;
@@ -83,12 +83,14 @@ a.current,a:hover{
     text-shadow: 7px 7px 4px rgb(0, 0, 0);
     padding-top: 3rem;
 }
+
 .title-h3{
     color: rgb(206, 235, 76);
     font-size: 50px;
     font-family: 'ABeeZee', sans-serif;
     display: flex;
     justify-content: center;
+    text-align: center;
     text-shadow: 7px 7px 4px rgb(0, 0, 0);
     top: 100px;
 }
@@ -299,19 +301,15 @@ a.current,a:hover{
     color: rgb(206, 235, 76);
 }
 
-
 /*SECTION 7*/
-
-
-/*SECTION 8*/
-#section8{
+#section7{
     background: #202020;
     height: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-#section8 .domanda{
+#section7 .domanda{
     display: flex;
     justify-content: center;
     color: rgb(206, 235, 76);
@@ -319,7 +317,7 @@ a.current,a:hover{
     text-align: center;
 }
 
-#section8 p{
+#section7 p{
     color: white;
     font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
@@ -327,11 +325,11 @@ a.current,a:hover{
     padding-top: 1rem;
 }
 
-#section8 a{
+#section7 a{
     color: rgb(255, 255, 255);
 }
 
-#section8 a:hover{
+#section7 a:hover{
     color: rgb(206, 235, 76);
 }
 
