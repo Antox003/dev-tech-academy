@@ -28,6 +28,7 @@
     left: 0;
   }
 
+  /*HOME*/
   .title-h1{
     font-size: 100px;
   }
@@ -39,3 +40,9 @@
   #section3 .dx img{
     display: none;
   }
+
+
+/*VIDEOCORSI*/
+#sectiontitle{
+  font-size: 70px;
+}
