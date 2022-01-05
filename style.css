@@ -339,10 +339,10 @@ a.current,a:hover{
     text-align: center;
     color: white;
     font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
     height: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: 'Bebas Neue', cursive;
     background: url('./img/website-design-brisbane1.jpeg') center center/cover no-repeat;
 }
 
