@@ -444,6 +444,7 @@ a.current,a:hover{
     justify-content: space-evenly;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    width: 100%;
 }
 
 #chisiamotitle .sx img{
