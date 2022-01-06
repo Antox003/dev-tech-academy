@@ -72,6 +72,7 @@ a.current,a:hover{
     background: url('./img/sfondo_home.png') center center/cover;
     height: auto;
     padding-bottom: 2rem;
+    width: 100%;
 }
 
 .title-h1{
