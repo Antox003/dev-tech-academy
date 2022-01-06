@@ -335,7 +335,7 @@ a.current,a:hover{
 }
 
 /*VIDEOCORSI*/
-#sectiontitle{
+#titlevideocorsi{
     text-align: center;
     color: white;
     font-size: 100px;
@@ -435,6 +435,114 @@ a.current,a:hover{
     opacity: 1;
     transition-delay: 0.3s ;
   }
+
+/*CHI SIAMO?*/
+#chisiamotitle{
+    background: url('./img/backgroundchisiamo.jpeg') center center/cover no-repeat;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#chisiamotitle .sx img{
+    width: 322px;
+    height: 296px;
+    top: 197px;
+}
+
+#chisiamotitle .dx{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+#chisiamotitle .dx p{
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0 5px 20px rgb(0, 0, 0);
+}
+
+#chisiamotitle .dx p .color{
+    color: rgb(228, 255, 110);
+}
+
+#presentation{
+    background: url('./img/background\ section.png') center center/cover no-repeat;
+}
+
+#presentation .container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#presentation .sx {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+#presentation .sx iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.dx p{
+    color: white;
+}
+
+#review-student{
+    height: auto;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background:#202020 ;
+}
+
+#review-student .recensioni h2{
+    color: rgb(228, 255, 110);
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#review-student .recensioni .image-reviews{
+   text-align: center;
+}
+
+#review-student .recensioni .image-reviews img{
+    padding-top: 1rem;
+}
+
+#review-student .total-student .number h1{
+    color: rgb(228, 255, 110);
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 1rem;
+}
+
+#review-student .total-student .number p{
+    font-family: 'ABeeZee', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+
 
 
 /*FOOTER*/

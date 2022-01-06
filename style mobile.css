@@ -43,7 +43,19 @@
 
 
 /*VIDEOCORSI*/
-#sectiontitle{
+#titlevideocorsi{
   font-size: 70px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
+
+/*CHI SIAMO?*/
+#chisiamotitle .sx img{
+  display: none;
+}
+
+#chisiamotitle .dx{
+  width: 100%;
+}
+
