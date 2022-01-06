@@ -353,6 +353,7 @@ a.current,a:hover{
     align-items: center;
     background: url('./img/background\ section.png')center center/cover no-repeat;
     height: auto;
+    width: 100%;
   }
   
   .container-videocorsi{
