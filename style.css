@@ -18,7 +18,8 @@ nav{
 }
 
 .logo img{
-    padding-top: 5px;
+    padding-top: 1rem;
+    padding-left: 1rem;
     width: 12rem;
 }
 
@@ -49,7 +50,7 @@ nav ul li a{
 }
 
 a.current,a:hover{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     transition: 0.2s;
 }
 
@@ -87,7 +88,7 @@ a.current,a:hover{
 }
 
 .title-h3{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 50px;
     font-family: 'ABeeZee', sans-serif;
     display: flex;
@@ -114,7 +115,7 @@ a.current,a:hover{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 40px;
     padding-top: 1rem;
 }
@@ -129,7 +130,7 @@ a.current,a:hover{
 }
 
 #section1  .color{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
 }
 
 /*SECTION 2*/
@@ -143,7 +144,7 @@ a.current,a:hover{
 #section2 .domanda{
     display: flex;
     justify-content: center;
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
 }
@@ -178,7 +179,7 @@ a.current,a:hover{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 40px;
     padding-top: 1rem;
 }
@@ -192,7 +193,7 @@ a.current,a:hover{
 }
 
 #section3  .color{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
 }
 
 /*SECTION 4*/
@@ -206,7 +207,7 @@ a.current,a:hover{
 #section4 .title{
     display: flex;
     justify-content: center;   
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
 }
@@ -220,7 +221,7 @@ a.current,a:hover{
 }
 
 #section4  .color{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
 }
 /*SECTION MAX*/
 #sectionmax{
@@ -249,7 +250,7 @@ a.current,a:hover{
 #section5 .domanda{
     display: flex;
     justify-content: center;
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
 }
@@ -278,7 +279,7 @@ a.current,a:hover{
 #section6 .domanda{
     display: flex;
     justify-content: center;
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
 }
@@ -292,7 +293,7 @@ a.current,a:hover{
 }
 
 #section6  .color{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
 }
 
 #section6 a{
@@ -300,7 +301,7 @@ a.current,a:hover{
 }
 
 #section6 a:hover{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
 }
 
 /*SECTION 7*/
@@ -314,7 +315,7 @@ a.current,a:hover{
 #section7 .domanda{
     display: flex;
     justify-content: center;
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
 }
@@ -332,7 +333,7 @@ a.current,a:hover{
 }
 
 #section7 a:hover{
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
 }
 
 /*VIDEOCORSI*/
@@ -412,7 +413,7 @@ a.current,a:hover{
   }
   
   .container-videocorsi .card .paragrafo a {
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
     font-family: 'Bebas Neue', cursive;
   }
 
@@ -426,7 +427,7 @@ a.current,a:hover{
   .container-videocorsi .card .prezzo{
       display: flex;
       justify-content: flex-end;
-      color: rgb(206, 235, 76);
+      color: rgb(234, 255, 0);
       font-family: 'Bebas Neue', cursive;
       visibility: hidden;
       font-size: 20px;
@@ -440,7 +441,7 @@ a.current,a:hover{
 
 /*CHI SIAMO?*/
 #chisiamotitle{
-    background: url('./img/backgroundchisiamo.jpeg') center center/cover no-repeat;
+    background: url('./img/chi\ siamo\ background.png') center center/cover no-repeat;
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -450,7 +451,7 @@ a.current,a:hover{
 }
 
 #chisiamotitle .sx img{
-    width: 322px;
+    width: 500px;
     height: 296px;
     top: 197px;
 }
@@ -470,7 +471,7 @@ a.current,a:hover{
 }
 
 #chisiamotitle .dx p .color{
-    color: rgb(228, 255, 110);
+    color: rgb(234, 255, 0);
 }
 
 #presentation{
@@ -514,7 +515,7 @@ a.current,a:hover{
 }
 
 #review-student .recensioni h2{
-    color: rgb(228, 255, 110);
+    color: rgb(234, 255, 0);
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
@@ -530,7 +531,7 @@ a.current,a:hover{
 }
 
 #review-student .total-student .number h1{
-    color: rgb(228, 255, 110);
+    color: rgb(234, 255, 0);
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
     padding-top: 1rem;
@@ -552,26 +553,20 @@ a.current,a:hover{
 .footer{
     height: auto;
     background: #000000;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
-.footer .sx img{
-   width: 30%;
-}
-
-.footer .dx{
-padding-top: 2rem;
+.footer p{
 font-family: Bebas Neue;
 font-size: 25px;
 }
 
-.footer .dx p{
+.footer p{
     color: white;
 } 
 
-.footer .dx p .color{
-    color: rgb(206, 235, 76);
+.footer p .color{
+    color: rgb(234, 255, 0);
 } 

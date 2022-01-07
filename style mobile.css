@@ -20,9 +20,10 @@
   nav ul li a{
     font-size: 35px;
   }
+
   a:hover,a.current{
     background: none;
-    color: rgb(206, 235, 76);
+    color: rgb(234, 255, 0);
   }
   #check:checked ~ ul{
     left: 0;
