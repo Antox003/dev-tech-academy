@@ -19,6 +19,7 @@ nav{
 
 .logo img{
     padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 1rem;
     width: 12rem;
 }
@@ -420,7 +421,7 @@ a.current,a:hover{
   .container-videocorsi .card:hover .paragrafo{
     visibility: visible;
     opacity: 1;
-    margin-top: -40px;
+    margin-top: -30px;
     transition-delay: 0.3s ;
   }
   
