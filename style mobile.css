@@ -22,8 +22,9 @@
   }
 
   .logo img{
+    padding-top: 0.5rem;
     width: 12rem;
-    height: 3rem;
+    height: 3.5rem;
 }
 
   a:hover,a.current{
