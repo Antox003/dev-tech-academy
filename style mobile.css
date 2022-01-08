@@ -21,6 +21,11 @@
     font-size: 35px;
   }
 
+  .logo img{
+    width: 12rem;
+    height: 3rem;
+}
+
   a:hover,a.current{
     background: none;
     color: rgb(234, 255, 0);
