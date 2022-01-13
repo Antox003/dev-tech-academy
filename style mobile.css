@@ -57,6 +57,11 @@
   justify-content: center;
 }
 
+#feedback iframe{
+  width: 400px;
+  height: 1300px;
+}
+
 /*CHI SIAMO?*/
 #chisiamotitle .sx img{
   display: none;
