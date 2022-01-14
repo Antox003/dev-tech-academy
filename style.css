@@ -70,7 +70,7 @@ a.current,a:hover{
 
 /*TITLE SECTION*/
 #titolo{
-    background: url('./img/sfondo_home.png') center center/cover;
+    background: url('./img/sfondo.png') center center/cover;
     height: auto;
     padding-bottom: 2rem;
     width: 100%;
@@ -441,7 +441,7 @@ a.current,a:hover{
 
 /*CHI SIAMO?*/
 #chisiamotitle{
-    background: url('./img/chi\ siamo\ background.png') center center/cover no-repeat;
+    background: url('./img/sfondo.png') center center/cover no-repeat;
     height: auto;
     display: flex;
     justify-content: space-evenly;
