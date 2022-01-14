@@ -223,6 +223,7 @@ a.current,a:hover{
 #section4  .color{
     color: rgb(234, 255, 0);
 }
+
 /*SECTION MAX*/
 #sectionmax{
     display: flex;
@@ -349,16 +350,15 @@ a.current,a:hover{
     width: 100%;
 }
 
-
 #videocorsi{
     display: flex;
     justify-content: center;
     align-items: center;
     background: url('./img/background\ section.png')center center/cover no-repeat;
     height: auto;
-  }
+}
   
-  .container-videocorsi{
+.container-videocorsi{
     position: relative;
     width: 1500px;
     display: flex;
@@ -366,9 +366,9 @@ a.current,a:hover{
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-  }
+}
   
-  .container-videocorsi .card{
+.container-videocorsi .card{
     max-width: 300px;
     height: 215px;
     background: #202020;
@@ -379,27 +379,27 @@ a.current,a:hover{
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out ;
     border-radius: 10px;
-  }
+}
   
-  .container-videocorsi .card:hover{
+.container-videocorsi .card:hover{
     height: 400px;
-  }
+}
   
-  .container-videocorsi .card .imgBx{
+.container-videocorsi .card .imgBx{
     position: relative;
     width: 90%;
     height: 150px;
     top: -60px;
     left: 20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-  }
+}
   
-  .container-videocorsi .card .imgBx img{
+.container-videocorsi .card .imgBx img{
     max-width: 100%;
     border-radius: 5px;
-  }
+}
   
-  .container-videocorsi .card .paragrafo{
+.container-videocorsi .card .paragrafo{
     position: relative;
     margin-top: -140px;
     padding: 10px 15px;
@@ -410,34 +410,34 @@ a.current,a:hover{
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
-  }
+}
   
-  .container-videocorsi .card .paragrafo a {
+.container-videocorsi .card .paragrafo a {
     color: rgb(234, 255, 0);
     font-family: 'Bebas Neue', cursive;
-  }
+}
 
-  .container-videocorsi .card:hover .paragrafo{
+.container-videocorsi .card:hover .paragrafo{
     visibility: visible;
     opacity: 1;
     margin-top: -30px;
     transition-delay: 0.3s ;
-  }
+}
   
-  .container-videocorsi .card .prezzo{
-      display: flex;
-      justify-content: flex-end;
-      color: rgb(234, 255, 0);
-      font-family: 'Bebas Neue', cursive;
-      visibility: hidden;
-      font-size: 20px;
-  }
+.container-videocorsi .card .prezzo{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(234, 255, 0);
+    font-family: 'Bebas Neue', cursive;
+    visibility: hidden;
+    font-size: 20px;
+}
 
-  .container-videocorsi .card:hover .prezzo{
+.container-videocorsi .card:hover .prezzo{
     visibility: visible;
     opacity: 1;
     transition-delay: 0.3s ;
-  }
+}
 
 /*CHI SIAMO?*/
 #chisiamotitle{
