@@ -439,6 +439,24 @@ a.current,a:hover{
     transition-delay: 0.3s ;
 }
 
+/*
+.container-videocorsi .card .prezzospeciale{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(255, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: line-through;
+    visibility: hidden;
+    font-size: 20px;
+}
+
+.container-videocorsi .card:hover .prezzospeciale{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.3s ;
+}
+*/
+
 /*CHI SIAMO?*/
 #chisiamotitle{
     background: url('./img/sfondo.png') center center/cover no-repeat;
