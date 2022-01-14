@@ -439,8 +439,8 @@ a.current,a:hover{
     transition-delay: 0.3s ;
 }
 
-/*
-.container-videocorsi .card .prezzospeciale{
+
+.container-videocorsi .card .prezzocancellato{
     display: flex;
     justify-content: flex-end;
     color: rgb(255, 0, 0);
@@ -450,7 +450,7 @@ a.current,a:hover{
     font-size: 20px;
 }
 
-.container-videocorsi .card:hover .prezzospeciale{
+.container-videocorsi .card:hover .prezzocancellato{
     visibility: visible;
     opacity: 1;
     transition-delay: 0.3s ;
