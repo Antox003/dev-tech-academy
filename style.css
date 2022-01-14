@@ -439,22 +439,6 @@ a.current,a:hover{
     transition-delay: 0.3s ;
 }
 
-#feedback{
-    text-align: center;
-    background: #202020;
-}
-
-#feedback h1{
-    text-align: center;
-    color: rgb(234, 255, 0);
-    font-size: 50px;
-}
-
-#feedback iframe{
-    width: 640px;
-    height: 1050px;
-}
-
 /*CHI SIAMO?*/
 #chisiamotitle{
     background: url('./img/chi\ siamo\ background.png') center center/cover no-repeat;
