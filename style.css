@@ -439,7 +439,6 @@ a.current,a:hover{
     transition-delay: 0.3s ;
 }
 
-
 .container-videocorsi .card .prezzocancellato{
     display: flex;
     justify-content: flex-end;
@@ -455,7 +454,6 @@ a.current,a:hover{
     opacity: 1;
     transition-delay: 0.3s ;
 }
-*/
 
 /*CHI SIAMO?*/
 #chisiamotitle{
