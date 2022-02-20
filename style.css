@@ -76,12 +76,10 @@ a.current,a:hover{
     width: 100%;
 }
 
-.title-h1{
+.title h1{
     color: #ffffff;
     font-size: 110px;
     font-family: 'Bebas Neue', cursive;
-    display: flex;
-    justify-content: center;
     text-shadow: 7px 7px 4px rgb(0, 0, 0);
     padding-top: 3rem;
     text-align: center;
@@ -91,11 +89,8 @@ a.current,a:hover{
     color: rgb(234, 255, 0);
     font-size: 50px;
     font-family: 'ABeeZee', sans-serif;
-    display: flex;
-    justify-content: center;
     text-align: center;
     text-shadow: 7px 7px 4px rgb(0, 0, 0);
-    top: 100px;
 }
 
 /*SECTION 1*/
@@ -116,8 +111,9 @@ a.current,a:hover{
     justify-content: center;
     text-align: center;
     color: rgb(234, 255, 0);
-    font-size: 40px;
+    font-size: 43px;
     padding-top: 1rem;
+    font-family:'Bebas Neue', cursive;
 }
 
 #section1 p{
@@ -145,8 +141,9 @@ a.current,a:hover{
     display: flex;
     justify-content: center;
     color: rgb(234, 255, 0);
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
+    font-family:'Bebas Neue', cursive;
 }
 
 #section2 p{
@@ -154,7 +151,6 @@ a.current,a:hover{
     font-size: 30px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
-    padding-top: 1rem;
 }
 
 /*SECTION 3*/
@@ -182,6 +178,7 @@ a.current,a:hover{
     color: rgb(234, 255, 0);
     font-size: 40px;
     padding-top: 1rem;
+    font-family:'Bebas Neue', cursive;
 }
 
 #section3 p{
@@ -204,20 +201,18 @@ a.current,a:hover{
     padding-bottom: 1rem;
 }
 
-#section4 .title{
-    display: flex;
-    justify-content: center;   
+#section4 .title-motivazionale h1{  
     color: rgb(234, 255, 0);
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
+    font-family:'Bebas Neue', cursive;
 }
 
 #section4 h4{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
-    padding-top: 1rem;
 }
 
 #section4  .color{
@@ -254,6 +249,7 @@ a.current,a:hover{
     color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
+    font-family:'Bebas Neue', cursive;
 }
 
 #section5 p{
@@ -283,6 +279,7 @@ a.current,a:hover{
     color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
+    font-family:'Bebas Neue', cursive;
 }
 
 #section6 p{
@@ -319,6 +316,7 @@ a.current,a:hover{
     color: rgb(234, 255, 0);
     font-size: 40px;
     text-align: center;
+    font-family:'Bebas Neue', cursive;
 }
 
 #section7 p{
