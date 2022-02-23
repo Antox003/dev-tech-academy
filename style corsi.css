@@ -86,18 +86,20 @@ a.current,a:hover{
 }
 
 #corso .copertina{
-    padding-left: 1.5rem;
+    padding-left: 2rem;
 }
 
 #corso .copertina img{
     border: 2px solid rgb(234, 255, 0);
     border-radius: 10px;
-    max-width: 500%;
+    width: 100%;
 }
 
 #corso .info{
-    padding-left: 5rem;
-    max-width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 50%;
+    align-items: center;
 }
 
 #corso .info h3{
