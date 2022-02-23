@@ -73,3 +73,12 @@ a:hover,a.current{
   width: 100%;
 }
 
+/*SVILUPPO BASE*/
+#corso{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#corso .info{
+  width: 100%;
+}
