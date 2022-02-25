@@ -80,5 +80,6 @@ a:hover,a.current{
 }
 
 #corso .info{
+  padding-top: 1rem;
   width: 100%;
 }

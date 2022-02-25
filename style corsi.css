@@ -120,7 +120,27 @@ a.current,a:hover{
     color: #ffff;
 } 
 
+#subscribebutton{
+    padding-top: 1rem;
+    text-align: center;
+}
 
+#subscribebutton button{
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    transition: 0.5s;
+    background: #ffff;
+    font-family: 'ABeeZee', sans-serif;
+    border: 1px solid black;
+    
+}
+
+#subscribebutton button:hover{
+    background: rgb(234, 255, 0);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
 
 
 
