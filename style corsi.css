@@ -81,43 +81,49 @@ a.current,a:hover{
     font-family:'Bebas Neue', cursive ;
 }
 
-#corso{
+#corsobase{
     display: flex;
 }
 
-#corso .copertina{
+#corsobase .copertina{
     padding-left: 1rem;
 }
 
-#corso .copertina img{
+#corsobase .copertina img{
     border: 2px solid rgb(234, 255, 0);
     border-radius: 10px;
     width: 95%;
 }
 
-#corso .info{
+#corsobase .info{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     width: 50%;
     align-items: center;
 }
 
-#corso .info h3{
+#corsobase .info h3{
     color: rgb(234, 255, 0);
     font-family:'Bebas Neue', cursive;
     font-size: 30px;
     text-align: center;
 }
 
-#corso .info p{
+#corsobase .info p{
     color: #ffff;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     font-size: 20px;
 } 
 
-#corso .info p a{
+#corsobase .info p a{
     color: #ffff;
+    transition: 0.3s;
+} 
+
+#corsobase .info p a:hover{
+    color: rgb(234, 255, 0);
+    transition: 0.5s;
 } 
 
 #subscribebutton{
@@ -150,9 +156,95 @@ a.current,a:hover{
 }
 
 
+/*Html & Css: Le basi dello sviluppo web*/
+#htmlcsstitle{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+}
 
+#htmlcsstitle .title{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(234, 255, 0);
+    font-family:'Bebas Neue', cursive ;
+}
 
+#corsohtmlcss{
+    display: flex;
+}
 
+#corsohtmlcss .copertina{
+    padding-left: 1rem;
+}
+
+#corsohtmlcss .copertina img{
+    border: 2px solid rgb(234, 255, 0);
+    border-radius: 10px;
+    width: 95%;
+}
+
+#corsohtmlcss .info{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 50%;
+    align-items: center;
+}
+
+#corsohtmlcss .info h3{
+    color: rgb(234, 255, 0);
+    font-family:'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#corsohtmlcss .info p{
+    color: #ffff;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    font-size: 20px;
+} 
+
+#corsohtmlcss .info p a{
+    color: #ffff;
+    transition: 0.3s;
+} 
+
+#corsohtmlcss .info p a:hover{
+    color: rgb(234, 255, 0);
+    transition: 0.5s;
+} 
+
+#lesson{
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#lesson .titolo h3{
+    color: rgb(234, 255, 0);
+    font-size: 30px;
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#lesson .description {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#lesson .description p{
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#lesson .description .color{
+    color: rgb(234, 255, 0);
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+}
 
 
 

@@ -74,12 +74,31 @@ a:hover,a.current{
 }
 
 /*SVILUPPO BASE*/
-#corso{
+#corsobase{
   display: flex;
   flex-wrap: wrap;
 }
 
-#corso .info{
+#corsobase .info{
   padding-top: 1rem;
   width: 100%;
+}
+
+/*HTML & CSS*/
+#corsohtmlcss{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#corsohtmlcss .info{
+  padding-top: 1rem;
+  width: 100%;
+}
+
+#lesson .description {
+  flex-wrap: wrap;
+}
+
+#lesson .description p{
+  padding-bottom: 1rem;
 }

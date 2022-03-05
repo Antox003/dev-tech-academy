@@ -450,7 +450,11 @@ a.current,a:hover{
 .container-videocorsi .card:hover .prezzocancellato{
     visibility: visible;
     opacity: 1;
-    transition-delay: 0.3s ;
+    transition-delay: 0.3s;
+}
+
+.container-videocorsi .card .paragrafo .not-allowed:hover{
+    cursor: not-allowed;
 }
 
 /*CHI SIAMO?*/
