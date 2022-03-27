@@ -223,7 +223,7 @@ a.current,a:hover{
 
 #lesson .titolo h3{
     color: rgb(234, 255, 0);
-    font-size: 30px;
+    font-size: 40px;
     font-family:'Bebas Neue', cursive;
     text-align: center;
     padding-bottom: 1rem;
@@ -246,6 +246,95 @@ a.current,a:hover{
     font-size: 25px;
 }
 
+/* JS VIDEOCORSO */
+#jstitle{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+}
+
+#jstitle .title{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(234, 255, 0);
+    font-family:'Bebas Neue', cursive ;
+}
+
+#corsojs{
+    display: flex;
+}
+
+#corsojs .copertina{
+    padding-left: 1rem;
+}
+
+#corsojs .copertina img{
+    border: 2px solid rgb(234, 255, 0);
+    border-radius: 10px;
+    width: 95%;
+}
+
+#corsojs .info{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 50%;
+    align-items: center;
+}
+
+#corsojs .info h3{
+    color: rgb(234, 255, 0);
+    font-family:'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#corsojs .info p{
+    color: #ffff;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    font-size: 20px;
+} 
+
+#corsojs .info p a{
+    color: #ffff;
+    transition: 0.3s;
+} 
+
+#corsojs .info p a:hover{
+    color: rgb(234, 255, 0);
+    transition: 0.5s;
+} 
+
+#lesson{
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#lesson .titolo h3{
+    color: rgb(234, 255, 0);
+    font-size: 40px;
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#lesson .description {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#lesson .description p{
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#lesson .description .color{
+    color: rgb(234, 255, 0);
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+}
 
 
 
