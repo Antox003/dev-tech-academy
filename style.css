@@ -306,8 +306,13 @@ a.current,a:hover{
 #section7{
     background: #202020;
     height: auto;
-    padding-top: 1rem;
+    margin-top: 1rem;
     padding-bottom: 1rem;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 4px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
 }
 
 #section7 .domanda{
@@ -327,11 +332,90 @@ a.current,a:hover{
     padding-top: 1rem;
 }
 
+#section7  .color{
+    color: rgb(234, 255, 0);
+}
+
 #section7 a{
     color: rgb(255, 255, 255);
 }
 
 #section7 a:hover{
+    color: rgb(234, 255, 0);
+}
+
+/*SECTION 8*/
+#section8{
+    background: #202020;
+    height: auto;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 4px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+#section8 .domanda{
+    display: flex;
+    justify-content: center;
+    color: rgb(234, 255, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family:'Bebas Neue', cursive;
+}
+
+#section8 p{
+    color: white;
+    font-size: 30px;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#section8  .color{
+    color: rgb(234, 255, 0);
+}
+
+#section8 a{
+    color: rgb(255, 255, 255);
+}
+
+#section8 a:hover{
+    color: rgb(234, 255, 0);
+}
+
+/*SECTION 9*/
+#section9{
+    background: #202020;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#section9 .domanda{
+    display: flex;
+    justify-content: center;
+    color: rgb(234, 255, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family:'Bebas Neue', cursive;
+}
+
+#section9 p{
+    color: white;
+    font-size: 30px;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#section9 a{
+    color: rgb(255, 255, 255);
+}
+
+#section9 a:hover{
     color: rgb(234, 255, 0);
 }
 
