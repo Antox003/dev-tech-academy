@@ -190,7 +190,7 @@ body{
     transition-delay: 0.3s;
 }
 
-.container-videocorsi .card .paragrafo .not-allowed:hover{
+.container-videocorsi .card .not-allowed:hover{
     cursor: not-allowed;
 }
 
