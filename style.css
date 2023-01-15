@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
 body{
-    background: black;
+    background: #111E2B;
 }
 /*HOME*/
 
@@ -50,7 +51,7 @@ nav ul li a{
 }
 
 a.current,a:hover{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     transition: 0.2s;
 }
 
@@ -70,9 +71,10 @@ a.current,a:hover{
 
 /*TITLE SECTION*/
 #titolo{
-    background: url('./img/sfondo.png') center center/cover;
+    background: url('./img/sfondo_black.jpg') center center/cover;
     height: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
     width: 100%;
 }
 
@@ -81,469 +83,288 @@ a.current,a:hover{
     font-size: 110px;
     font-family: 'Bebas Neue', cursive;
     text-shadow: 7px 7px 4px rgb(0, 0, 0);
-    padding-top: 3rem;
     text-align: center;
+    padding-top: 5rem;
 }
 
 .title-h3{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-size: 50px;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     text-shadow: 7px 7px 4px rgb(0, 0, 0);
+    padding-bottom: 5rem;
 }
 
-/*SECTION 1*/
-#section1{
-    background: #202020;
-    height: auto;
-    background: url('./img/background\ section.png') center center/cover no-repeat;
-    display: flex;
+/*SECTION BOX*/
+#box {
+  height: auto;
+  background: url('./img/background_footer.webp')center center/cover;
 }
 
-#section1 img{
-    width: 80%;
-    padding-left: 1rem;
-}
-
-#section1 .domanda{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: rgb(234, 255, 0);
-    font-size: 43px;
+#box .box-1{
+    background: #000000;
+    border-radius: 20px;
+    margin: 1rem auto;
+    width: 97%;
     padding-top: 1rem;
-    font-family:'Bebas Neue', cursive;
 }
 
-#section1 p{
-    color: white;
-    font-size: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#section1  .color{
-    color: rgb(234, 255, 0);
-}
-
-/*SECTION 2*/
-#section2{
-    background: #202020;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#section2 .domanda{
-    display: flex;
-    justify-content: center;
-    color: rgb(234, 255, 0);
+#box .box-1 h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
     font-size: 45px;
     text-align: center;
-    font-family:'Bebas Neue', cursive;
 }
 
-#section2 p{
-    color: white;
-    font-size: 30px;
+#box .box-1 p{
     font-family: 'ABeeZee', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
     text-align: center;
-}
-
-/*SECTION 3*/
-#section3{
-    background: black;
-    height: auto;
-    background: url('./img/background\ section\ \(reverse\).png') center center/cover no-repeat;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-#section3 .dx img{
+    margin: 0 auto;
     width: 80%;
 }
 
-#section3 .sx{
-    width: 100%;
+#box .box-1 p .color{
+    color: #FFF500;
 }
 
-#section3 .domanda{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: rgb(234, 255, 0);
-    font-size: 40px;
-    padding-top: 1rem;
-    font-family:'Bebas Neue', cursive;
-}
-
-#section3 p{
-    color: white;
-    font-size: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
+#box .box-2{
+    background: #000000;
+    border-radius: 20px;
+    margin: 1rem auto;
+    width: 97%;
     padding-top: 1rem;
 }
 
-#section3  .color{
-    color: rgb(234, 255, 0);
-}
-
-/*SECTION 4*/
-#section4{
-    background: #202020;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#section4 .title-motivazionale h1{  
-    color: rgb(234, 255, 0);
-    font-size: 60px;
-    text-align: center;
-    font-family:'Bebas Neue', cursive;
-}
-
-#section4 h4{
-    color: white;
-    font-size: 25px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-}
-
-#section4  .color{
-    color: rgb(234, 255, 0);
-}
-
-/*SECTION MAX*/
-#sectionmax{
-    display: flex;
-    justify-content: space-around;
-    background: url('./img/background\ section.png') center center/cover no-repeat;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    flex-wrap: wrap;
-}
-
-/*SECTION 5*/
-#section5{
-    background: #202020;
-    height: auto;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 7px 7px 4px rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-}
-
-#section5 .domanda{
-    display: flex;
-    justify-content: center;
-    color: rgb(234, 255, 0);
-    font-size: 40px;
-    text-align: center;
-    font-family:'Bebas Neue', cursive;
-}
-
-#section5 p{
-    color: white;
-    font-size: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-/*SECTION 6*/
-#section6{
-    background: #202020;
-    height: auto;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 7px 7px 4px rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-}
-
-#section6 .domanda{
-    display: flex;
-    justify-content: center;
-    color: rgb(234, 255, 0);
-    font-size: 40px;
-    text-align: center;
-    font-family:'Bebas Neue', cursive;
-}
-
-#section6 p{
-    color: white;
-    font-size: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-#section6  .color{
-    color: rgb(234, 255, 0);
-}
-
-#section6 a{
-    color: rgb(255, 255, 255);
-}
-
-#section6 a:hover{
-    color: rgb(234, 255, 0);
-}
-
-/*SECTION 7*/
-#section7{
-    background: #202020;
-    height: auto;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 7px 7px 4px rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-}
-
-#section7 .domanda{
-    display: flex;
-    justify-content: center;
-    color: rgb(234, 255, 0);
-    font-size: 40px;
-    text-align: center;
-    font-family:'Bebas Neue', cursive;
-}
-
-#section7 p{
-    color: white;
-    font-size: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-#section7  .color{
-    color: rgb(234, 255, 0);
-}
-
-#section7 a{
-    color: rgb(255, 255, 255);
-}
-
-#section7 a:hover{
-    color: rgb(234, 255, 0);
-}
-
-/*SECTION 8*/
-#section8{
-    background: #202020;
-    height: auto;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 7px 7px 4px rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-}
-
-#section8 .domanda{
-    display: flex;
-    justify-content: center;
-    color: rgb(234, 255, 0);
-    font-size: 40px;
-    text-align: center;
-    font-family:'Bebas Neue', cursive;
-}
-
-#section8 p{
-    color: white;
-    font-size: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-#section8  .color{
-    color: rgb(234, 255, 0);
-}
-
-#section8 a{
-    color: rgb(255, 255, 255);
-}
-
-#section8 a:hover{
-    color: rgb(234, 255, 0);
-}
-
-/*SECTION 9*/
-#section9{
-    background: #202020;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#section9 .domanda{
-    display: flex;
-    justify-content: center;
-    color: rgb(234, 255, 0);
-    font-size: 40px;
-    text-align: center;
-    font-family:'Bebas Neue', cursive;
-}
-
-#section9 p{
-    color: white;
-    font-size: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-#section9 a{
-    color: rgb(255, 255, 255);
-}
-
-#section9 a:hover{
-    color: rgb(234, 255, 0);
-}
-
-/*VIDEOCORSI*/
-#titlevideocorsi{
-    text-align: center;
-    color: white;
-    font-size: 100px;
+#box .box-2 h1{
     font-family: 'Bebas Neue', cursive;
-    height: auto;
+    color: #FFF500;
+    font-size: 45px;
+    text-align: center;
+}
+
+#box .box-2 p{
+    font-family: 'ABeeZee', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background: url('./img/website-design-brisbane1.jpeg') center center/cover no-repeat;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
 }
 
-#videocorsi{
+#box .box-3{
+    width: 97%;
+    margin: 1rem auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('./img/background\ section.png')center center/cover no-repeat;
-    height: auto;
+    justify-content: space-evenly;
+    padding-top: 1rem;
 }
-  
-.container-videocorsi{
-    position: relative;
-    width: 1500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
+
+#box .box-3 .sx img{
+    width: 95%;
+    border-radius: 20px;
 }
-  
-.container-videocorsi .card{
-    max-width: 300px;
-    height: 215px;
-    background: #202020;
-    margin: 30px 10px ;
-    padding: 20px 15px ;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in-out ;
-    border-radius: 10px;
+
+#box .box-3 .dx{
+    background: #000000;
+    border-radius: 20px;
+    width: 97%;
+    line-height: 3rem;
 }
-  
-.container-videocorsi .card:hover{
-    height: 400px;
-}
-  
-.container-videocorsi .card .imgBx{
-    position: relative;
-    width: 90%;
-    height: 150px;
-    top: -60px;
-    left: 20px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-}
-  
-.container-videocorsi .card .imgBx img{
-    max-width: 100%;
-    border-radius: 5px;
-}
-  
-.container-videocorsi .card .paragrafo{
-    position: relative;
-    margin-top: -140px;
-    padding: 10px 15px;
+
+#box .box-3 h1{
+    padding-top: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 45px;
     text-align: center;
-    color: white;
+}
+
+#box .box-3 p{
     font-family: 'ABeeZee', sans-serif;
-    font-size: 18px;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-}
-  
-.container-videocorsi .card .paragrafo a {
-    color: rgb(234, 255, 0);
-    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 80%;
 }
 
-.container-videocorsi .card:hover .paragrafo{
-    visibility: visible;
-    opacity: 1;
-    margin-top: -30px;
-    transition-delay: 0.3s ;
+#box .box-3 p .color{
+    color: #FFF500;
 }
-  
-.container-videocorsi .card .prezzo{
+
+#box .box-4{
+    background: #000000;
+    border-radius: 20px;
+    margin: 1rem auto;
+    width: 97%;
+    padding-top: 1rem;
+}
+
+#box .box-4 h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 55px;
+    text-align: center;
+}
+
+#box .box-4 p{
+    font-family: 'ABeeZee', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#box .box-4 p .color{
+    color: #FFF500;
+}
+
+#box .box-5 {
+    width: 97%;
+    margin: 1rem auto;
     display: flex;
-    justify-content: flex-end;
-    color: rgb(234, 255, 0);
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#box .box-5 h1{
+    padding-top: 1rem;
     font-family: 'Bebas Neue', cursive;
-    visibility: hidden;
-    font-size: 20px;
+    color: #FFF500;
+    font-size: 45px;
+    text-align: center;
 }
 
-.container-videocorsi .card:hover .prezzo{
-    visibility: visible;
-    opacity: 1;
-    transition-delay: 0.3s ;
+#box .box-5 p{
+    font-family: 'ABeeZee', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 80%;
 }
 
-.container-videocorsi .card .prezzocancellato{
+#box .box-5 .sx{
+    background: #000000;
+    border-radius: 20px;
+    width: 49%;
+}
+
+#box .box-5 .dx{
+    background: #000000;
+    border-radius: 20px;
+    width: 49%;
+}
+
+#box .box-6 {
+    width: 97%;
+    margin: 1rem auto;
     display: flex;
-    justify-content: flex-end;
-    color: rgb(255, 0, 0);
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#box .box-6 h1{
+    padding-top: 1rem;
     font-family: 'Bebas Neue', cursive;
-    text-decoration: line-through;
-    visibility: hidden;
-    font-size: 20px;
+    color: #FFF500;
+    font-size: 45px;
+    text-align: center;
 }
 
-.container-videocorsi .card:hover .prezzocancellato{
-    visibility: visible;
-    opacity: 1;
-    transition-delay: 0.3s;
+#box .box-6 p{
+    font-family: 'ABeeZee', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 80%;
+    transition: 0.2s ease;
+
 }
 
-.container-videocorsi .card .paragrafo .not-allowed:hover{
-    cursor: not-allowed;
+#box .box-6 .sx{
+    background: #000000;
+    border-radius: 20px;
+    width: 49%;
+}
+
+#box .box-6 .dx{
+    background: #000000;
+    border-radius: 20px;
+    width: 49%;
+}
+
+#box .box-6 .color{
+    color: #FFF500;
+}
+
+#box .box-6 .dx a{
+    color: #ffffff;
+}
+
+#box .box-6 .dx a:hover{
+    color: #FFF500;
+    transition: 0.2s ease;
+}
+
+#box .box-7{
+    background: #000000;
+    border-radius: 20px;
+    margin: 1rem auto;
+    width: 97%;
+    padding-top: 1rem;
+}
+
+#box .box-7 h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 55px;
+    text-align: center;
+}
+
+#box .box-7 p{
+    font-family: 'ABeeZee', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 80%;
+    transition: 0.2s ease;
+}
+
+#box .box-7 a{
+    color: #ffffff;
+}
+
+#box .box-7 a:hover{
+    color: #FFF500;
+    transition: 0.2s ease;
 }
 
 /*CHI SIAMO?*/
 #chisiamotitle{
-    background: url('./img/sfondo.png') center center/cover no-repeat;
+    background: url('./img/sfondo_black.jpg') center center/cover no-repeat;
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -553,7 +374,7 @@ a.current,a:hover{
 }
 
 #chisiamotitle .sx img{
-    width: 500px;
+    width: 300px;
     height: 296px;
     top: 197px;
 }
@@ -572,14 +393,6 @@ a.current,a:hover{
     text-shadow: 0 5px 20px rgb(0, 0, 0);
 }
 
-#chisiamotitle .dx p .color{
-    color: rgb(234, 255, 0);
-}
-
-#presentation{
-    background: url('./img/background\ section.png') center center/cover no-repeat;
-}
-
 #presentation .container{
     max-width: 800px;
     margin: 0 auto;
@@ -594,59 +407,283 @@ a.current,a:hover{
     height: 0;
     padding-bottom: 56.25%;
     position: relative;
+    border: 1px solid #FFF500;
+    border-radius: 20px;
 }
 
 #presentation .sx iframe{
     position: absolute;
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
-.dx p{
-    color: white;
-}
-
-#review-student{
-    height: auto;
-    padding-bottom: 1rem;
+#review-student {
     text-align: center;
+    background-color: #000000;
+    width: 97%;
+    margin: 1rem auto;
+    border-radius: 20px;
+    height: auto;
+    padding-top: 1rem;
+}
+
+#review-student h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #FFF500;
+}
+
+#review-student .conteiner-review{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background:#202020 ;
+    width: 80%;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
 }
 
-#review-student .recensioni h2{
-    color: rgb(234, 255, 0);
-    font-size: 50px;
+#review-student .conteiner-review .card_recensioni {
+    margin-bottom: 1rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-1{
+    background: #111E2B;
+    height: 280px;
+    width: 400px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+#review-student .conteiner-review .card_recensioni .card-1 h5{
     font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    padding-top: 1rem;
+    color: #FFF500;
+    font-size: 30px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
 }
 
-#review-student .recensioni .image-reviews{
-   text-align: center;
+#review-student .conteiner-review .card_recensioni .card-1 img{
+    max-width: 30%;
+    padding-left: 1.5rem;
 }
 
-#review-student .recensioni .image-reviews img{
-    padding-top: 1rem;
-}
-
-#review-student .total-student .number h1{
-    color: rgb(234, 255, 0);
-    font-size: 50px;
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 1rem;
-}
-
-#review-student .total-student .number p{
+#review-student .conteiner-review .card_recensioni .card-1 p{
     font-family: 'ABeeZee', sans-serif;
-    color: white;
-    font-size: 40px;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
 }
 
+#review-student .conteiner-review .card_recensioni .card-2{
+    background: #111E2B;
+    height: 280px;
+    width: 400px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+#review-student .conteiner-review .card_recensioni .card-2 h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 30px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-2 img{
+    max-width: 30%;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-2 p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-3{
+    background: #111E2B;
+    height: 280px;
+    width: 400px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+#review-student .conteiner-review .card_recensioni .card-3 h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 30px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-3 img{
+    max-width: 30%;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-3 p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-4{
+    background: #111E2B;
+    height: 280px;
+    width: 400px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+#review-student .conteiner-review .card_recensioni .card-4 h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 30px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-4 img{
+    max-width: 30%;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-4 p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-5{
+    background: #111E2B;
+    height: 280px;
+    width: 400px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+#review-student .conteiner-review .card_recensioni .card-5 h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 30px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-5 img{
+    max-width: 30%;
+    padding-left: 1.5rem;
+}
+
+#review-student .conteiner-review .card_recensioni .card-5 p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#studenti_social .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #000000;
+    width: 97%;
+    margin: 1rem auto;
+    border-radius: 20px;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#studenti_social .container .sx{
+    text-align: center; 
+}
+
+#studenti_social .container .sx h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 50px;
+}
+
+#studenti_social .container .sx p{
+    color: #ffffff; 
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 30px;
+    line-height: 10rem;
+}
+
+#studenti_social .container .dx{
+    text-align: center; 
+}
+
+#studenti_social .container .dx h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF500;
+    font-size: 50px;
+}
+
+#studenti_social .container .dx .instagram{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+#studenti_social .container .dx .instagram img{
+    max-width: 20%;
+}
+
+#studenti_social .container .dx .instagram a{
+    color: #ffffff; 
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 23px;
+    line-height: 5rem;
+    transition: 0.2s ease;
+}
+
+#studenti_social .container .dx .instagram a:hover{
+   color: #FFF500;
+   transform: scale(1.1);
+   transition: 0.2s ease;
+}
+
+#studenti_social .container .dx .facebook{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+#studenti_social .container .dx .facebook img{
+    max-width: 20%;
+}
+
+#studenti_social .container .dx .facebook a{
+    color: #ffffff; 
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 23px;
+    line-height: 5rem;
+    transition: 0.2s ease;
+}
+
+#studenti_social .container .dx .facebook a:hover{
+    color: #FFF500;
+    transform: scale(1.1);
+    transition: 0.2s ease;
+ }
 
 
 
@@ -661,8 +698,8 @@ a.current,a:hover{
 }
 
 .footer p{
-font-family: Bebas Neue;
-font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
 }
 
 .footer p{
@@ -670,5 +707,5 @@ font-size: 25px;
 } 
 
 .footer p .color{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
 } 

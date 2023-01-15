@@ -31,7 +31,7 @@ nav ul li a{
 
 a:hover,a.current{
   background: none;
-  color: rgb(234, 255, 0);
+  color: #FFF500;
 }
 
 #check:checked ~ ul{
@@ -42,13 +42,43 @@ a:hover,a.current{
 .title-h1{
   font-size: 100px;
 }
-
-#section1 img{
-  display: none;
+#box .box-3{
+display: flex;
+flex-direction: column;
 }
 
-#section3 .dx img{
-  display: none;
+#box .box-3 .dx{
+ margin-top: 1rem;
+}
+
+#box .box-5{
+  display: flex;
+  flex-direction: column;
+}
+
+#box .box-5 .sx{
+  width: 97%;
+  margin-bottom: 0.5rem;
+}
+
+#box .box-5 .dx{
+  width: 97%;
+  margin-top: 0.5rem;
+}
+
+#box .box-6{
+  display: flex;
+  flex-direction: column;
+}
+
+#box .box-6 .sx{
+  width: 97%;
+  margin-bottom: 0.5rem;
+}
+
+#box .box-6 .dx{
+  width: 97%;
+  margin-top: 0.5rem;
 }
 
 /*VIDEOCORSI*/
@@ -101,4 +131,12 @@ a:hover,a.current{
 
 #lesson .description p{
   padding-bottom: 1rem;
+}
+
+#corsohtmlcss .copertina{
+  width: 100%;
+}
+
+#corsohtmlcss .copertina img{
+  width: 90%;
 }

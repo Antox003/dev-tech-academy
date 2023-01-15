@@ -49,7 +49,7 @@ nav ul li a{
 }
 
 a.current,a:hover{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     transition: 0.2s;
 }
 
@@ -67,6 +67,133 @@ a.current,a:hover{
     display: none;
 }
 
+body{
+    background: #111E2B;
+}
+
+/*VIDEOCORSI*/
+#titlevideocorsi{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    height: auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    background: url('./img/sfondo_black.jpg') center center/cover no-repeat;
+    width: 100%;
+}
+
+#videocorsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+  
+.container-videocorsi{
+    position: relative;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+  
+.container-videocorsi .card{
+    max-width: 300px;
+    height: 230px;
+    background: #202020;
+    margin: 30px 10px ;
+    padding: 20px 15px ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out ;
+    border-radius: 10px;
+}
+  
+.container-videocorsi .card:hover{
+    height: 350px;
+}
+  
+.container-videocorsi .card .imgBx{
+    position: relative;
+    width: 90%;
+    height: 120px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+  
+.container-videocorsi .card .imgBx img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+  
+.container-videocorsi .card a {
+    color: #FFF500;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-videocorsi .card .paragrafo{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container-videocorsi .card:hover .paragrafo{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -2px;
+    transition-delay: 0.3s ;
+}
+  
+.container-videocorsi .card .prezzo{
+    display: flex;
+    justify-content: flex-end;
+    color: #FFF500;
+    font-family: 'Bebas Neue', cursive;
+    visibility: hidden;
+    font-size: 20px;
+}
+
+.container-videocorsi .card:hover .prezzo{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.3s ;
+}
+
+.container-videocorsi .card .prezzocancellato{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(255, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: line-through;
+    visibility: hidden;
+    font-size: 20px;
+}
+
+.container-videocorsi .card:hover .prezzocancellato{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+
+.container-videocorsi .card .paragrafo .not-allowed:hover{
+    cursor: not-allowed;
+}
+
 /*BASI SVILUPPO WEB*/
 #basetitle{
     padding-top: 1rem;
@@ -77,12 +204,13 @@ a.current,a:hover{
 #basetitle .title{
     text-align: center;
     font-size: 50px;
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive ;
 }
 
 #corsobase{
     display: flex;
+    padding-bottom: 6rem;
 }
 
 #corsobase .copertina{
@@ -90,12 +218,13 @@ a.current,a:hover{
 }
 
 #corsobase .copertina img{
-    border: 2px solid rgb(234, 255, 0);
+    border: 2px solid #FFF500;
     border-radius: 10px;
-    width: 95%;
+    width: 90%;
 }
 
 #corsobase .info{
+    padding-top: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     width: 50%;
@@ -103,9 +232,9 @@ a.current,a:hover{
 }
 
 #corsobase .info h3{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -114,6 +243,7 @@ a.current,a:hover{
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     font-size: 20px;
+    line-height: 2rem;
 } 
 
 #corsobase .info p a{
@@ -122,19 +252,20 @@ a.current,a:hover{
 } 
 
 #corsobase .info p a:hover{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     transition: 0.5s;
 } 
 
 #subscribebutton{
     padding-top: 1rem;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 #subscribebutton button{
     border-radius: 10px;
     height: 30px;
-    width: 100px;
+    width: 200px;
     transition: 0.5s;
     background: #ffff;
     font-family: 'ABeeZee', sans-serif;
@@ -150,7 +281,7 @@ a.current,a:hover{
 }
 
 #subscribebutton button:hover{
-    background: rgb(234, 255, 0);
+    background: #FFF500;
     transition: 0.5s;
     transform: scale(1.1);
 }
@@ -166,7 +297,7 @@ a.current,a:hover{
 #htmlcsstitle .title{
     text-align: center;
     font-size: 50px;
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive ;
 }
 
@@ -176,25 +307,27 @@ a.current,a:hover{
 
 #corsohtmlcss .copertina{
     padding-left: 1rem;
+    width: 50%;
 }
 
 #corsohtmlcss .copertina img{
-    border: 2px solid rgb(234, 255, 0);
+    border: 2px solid #FFF500;
     border-radius: 10px;
-    width: 95%;
+    width: 90%;
 }
 
 #corsohtmlcss .info{
+    padding-top: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     width: 50%;
-    align-items: center;
+    text-align: center;
 }
 
 #corsohtmlcss .info h3{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -203,6 +336,7 @@ a.current,a:hover{
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     font-size: 20px;
+    line-height: 2rem;
 } 
 
 #corsohtmlcss .info p a{
@@ -211,7 +345,7 @@ a.current,a:hover{
 } 
 
 #corsohtmlcss .info p a:hover{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     transition: 0.5s;
 } 
 
@@ -222,7 +356,7 @@ a.current,a:hover{
 }
 
 #lesson .titolo h3{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-size: 40px;
     font-family:'Bebas Neue', cursive;
     text-align: center;
@@ -241,7 +375,7 @@ a.current,a:hover{
 }
 
 #lesson .description .color{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive;
     font-size: 25px;
 }
@@ -256,7 +390,7 @@ a.current,a:hover{
 #jstitle .title{
     text-align: center;
     font-size: 50px;
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive ;
 }
 
@@ -269,12 +403,13 @@ a.current,a:hover{
 }
 
 #corsojs .copertina img{
-    border: 2px solid rgb(234, 255, 0);
+    border: 2px solid #FFF500;
     border-radius: 10px;
     width: 95%;
 }
 
 #corsojs .info{
+    padding-top: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     width: 50%;
@@ -282,9 +417,9 @@ a.current,a:hover{
 }
 
 #corsojs .info h3{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -293,6 +428,7 @@ a.current,a:hover{
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
     font-size: 20px;
+    line-height: 2rem;
 } 
 
 #corsojs .info p a{
@@ -301,7 +437,7 @@ a.current,a:hover{
 } 
 
 #corsojs .info p a:hover{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     transition: 0.5s;
 } 
 
@@ -312,7 +448,7 @@ a.current,a:hover{
 }
 
 #lesson .titolo h3{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-size: 40px;
     font-family:'Bebas Neue', cursive;
     text-align: center;
@@ -331,11 +467,10 @@ a.current,a:hover{
 }
 
 #lesson .description .color{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
     font-family:'Bebas Neue', cursive;
     font-size: 25px;
 }
-
 
 
 
@@ -358,5 +493,5 @@ font-size: 25px;
 } 
 
 .footer p .color{
-    color: rgb(234, 255, 0);
+    color: #FFF500;
 } 
