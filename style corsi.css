@@ -194,99 +194,6 @@ body{
     cursor: not-allowed;
 }
 
-/*BASI SVILUPPO WEB*/
-#basetitle{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: auto;
-}
-
-#basetitle .title{
-    text-align: center;
-    font-size: 50px;
-    color: #FFF500;
-    font-family:'Bebas Neue', cursive ;
-}
-
-#corsobase{
-    display: flex;
-    padding-bottom: 6rem;
-}
-
-#corsobase .copertina{
-    padding-left: 1rem;
-}
-
-#corsobase .copertina img{
-    border: 2px solid #FFF500;
-    border-radius: 10px;
-    width: 90%;
-}
-
-#corsobase .info{
-    padding-top: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    width: 50%;
-    align-items: center;
-}
-
-#corsobase .info h3{
-    color: #FFF500;
-    font-family:'Bebas Neue', cursive;
-    font-size: 40px;
-    text-align: center;
-}
-
-#corsobase .info p{
-    color: #ffff;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-    font-size: 20px;
-    line-height: 2rem;
-} 
-
-#corsobase .info p a{
-    color: #ffff;
-    transition: 0.3s;
-} 
-
-#corsobase .info p a:hover{
-    color: #FFF500;
-    transition: 0.5s;
-} 
-
-#subscribebutton{
-    padding-top: 1rem;
-    text-align: center;
-    padding-bottom: 2rem;
-}
-
-#subscribebutton button{
-    border-radius: 10px;
-    height: 30px;
-    width: 200px;
-    transition: 0.5s;
-    background: #ffff;
-    font-family: 'ABeeZee', sans-serif;
-    border: 1px solid black;
-    
-}
-
-#subscribebutton button a{
-    color: black;
-    text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 23px;
-}
-
-#subscribebutton button:hover{
-    background: #FFF500;
-    transition: 0.5s;
-    transform: scale(1.1);
-}
-
-
 /*Html & Css: Le basi dello sviluppo web*/
 #htmlcsstitle{
     padding-top: 1rem;
@@ -484,8 +391,8 @@ body{
 }
 
 .footer p{
-font-family: Bebas Neue;
-font-size: 25px;
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
 }
 
 .footer p{
