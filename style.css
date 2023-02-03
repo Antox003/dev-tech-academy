@@ -6,7 +6,6 @@
 body{
     background: #111E2B;
 }
-/*HOME*/
 
 nav{
     background: rgb(255, 255, 255);
@@ -69,6 +68,7 @@ a.current,a:hover{
     display: none;
 }
 
+/*HOME*/
 /*TITLE SECTION*/
 #titolo{
     background: url('./img/sfondo_black.jpg') center center/cover;

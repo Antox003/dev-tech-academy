@@ -197,27 +197,74 @@ body{
 }
 
 /*LEZIONI*/
+#course-title{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+}
+
+#course-title h1{
+    text-align: center;
+    font-size: 50px;
+    color: #FFF500;
+    font-family:'Bebas Neue', cursive ;
+}
+
+#course-title h6{
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-family:'Bebas Neue', cursive ;
+}
 
 #page{
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #page #curriculum .container-curriculum{
     background-color: #0a141d;
+    border: 1px solid #FFF500;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #page #curriculum .container-curriculum h6{
     color: #FFF500;
     font-size: 40px;
     font-family:'Bebas Neue', cursive;
+    margin-left: 0.5rem;
+}
+
+#page #curriculum .container-curriculum .current{
+    text-decoration: underline;
+}
+
+#page #curriculum .container-curriculum a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#page #curriculum .container-curriculum a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease;
 }
 
 #page #curriculum .container-curriculum p{
     color: #ffffff;
     font-size: 25px;
     font-family: 'ABeeZee', sans-serif;
+    margin-left: 0.5rem;
+}
+
+#page #video{
+    padding-top: 2rem;
+}
+
+#page #video .container-video video{
+    border: 1px solid #FFF500;
+    border-radius: 20px;
 }
 
 
