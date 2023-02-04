@@ -273,6 +273,7 @@ body{
 #lesson .description {
   display: flex;
   justify-content: space-evenly;
+  line-height: 1.7rem;
 }
 
 #lesson .description p{
@@ -285,6 +286,36 @@ body{
     color: #FFF500;
     font-family:'Bebas Neue', cursive;
     font-size: 25px;
+}
+
+#subscribebutton{
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#subscribebutton button{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    transition: 0.5s;
+    background: #ffff;
+    font-family: 'ABeeZee', sans-serif;
+    border: 1px solid black;
+    
+}
+
+#subscribebutton button a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+}
+
+#subscribebutton button:hover{
+    background: #FFF500;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 /* JS VIDEOCORSO */

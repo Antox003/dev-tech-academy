@@ -134,6 +134,38 @@ body{
     transition: 0.5s;
 } 
 
+#lesson{
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#lesson .titolo h3{
+    color: #FFF500;
+    font-size: 40px;
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#lesson .description {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 1.5rem;
+}
+
+#lesson .description p{
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#lesson .description .color{
+    color: #FFF500;
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
 #subscribebutton{
     padding-top: 1rem;
     text-align: center;
@@ -165,41 +197,12 @@ body{
 }
 
 
-#lesson{
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#lesson .titolo h3{
-    color: #FFF500;
-    font-size: 40px;
-    font-family:'Bebas Neue', cursive;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-#lesson .description {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#lesson .description p{
-    color: #ffff;
-    font-size: 20px;
-    font-family: 'ABeeZee', sans-serif;
-}
-
-#lesson .description .color{
-    color: #FFF500;
-    font-family:'Bebas Neue', cursive;
-    font-size: 25px;
-}
 
 /*LEZIONI*/
 #course-title{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-left: 0.5rem;
     height: auto;
 }
 
@@ -208,6 +211,7 @@ body{
     font-size: 50px;
     color: #FFF500;
     font-family:'Bebas Neue', cursive ;
+
 }
 
 #course-title h6{
@@ -221,6 +225,8 @@ body{
     height: auto;
     display: flex;
     justify-content: space-between;
+    background: url('./img/background_footer.webp')center center/cover;
+    padding-bottom: 5rem;
 }
 
 #page #curriculum .container-curriculum{
@@ -231,7 +237,6 @@ body{
 }
 
 #page #curriculum .container-curriculum h6{
-    color: #FFF500;
     font-size: 40px;
     font-family:'Bebas Neue', cursive;
     margin-left: 0.5rem;
@@ -239,16 +244,19 @@ body{
 
 #page #curriculum .container-curriculum .current{
     text-decoration: underline;
+    color: #FFF500;
 }
 
 #page #curriculum .container-curriculum a{
     text-decoration: none;
     transition: 0.3s ease;
+    color: #ffffff;
 }
 
 #page #curriculum .container-curriculum a:hover{
     text-decoration: underline;
     transition: 0.3s ease;
+    color: #FFF500;
 }
 
 #page #curriculum .container-curriculum p{
@@ -256,6 +264,7 @@ body{
     font-size: 25px;
     font-family: 'ABeeZee', sans-serif;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #page #video{
@@ -265,6 +274,10 @@ body{
 #page #video .container-video video{
     border: 1px solid #FFF500;
     border-radius: 20px;
+    margin: 10rem;
+    max-width: 100%;
+    width:890px;
+    height:500px;
 }
 
 

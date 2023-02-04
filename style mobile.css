@@ -42,6 +42,7 @@ a:hover,a.current{
 .title-h1{
   font-size: 100px;
 }
+
 #box .box-3{
 display: flex;
 flex-direction: column;
@@ -113,6 +114,19 @@ flex-direction: column;
   padding-top: 1rem;
   width: 100%;
 }
+
+/*LEZIONI CORSO BASE*/
+#page{
+  display: flex;
+  flex-direction: column;
+}
+
+#page #video .container-video video{
+  margin: 0rem;
+  max-width: 100%;
+}
+
+
 
 /*HTML & CSS*/
 #corsohtmlcss{
