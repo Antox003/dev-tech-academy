@@ -121,6 +121,23 @@ flex-direction: column;
   flex-direction: column;
 }
 
+#page #curriculum .container-curriculum{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#page #curriculum .container-curriculum .current{
+  text-align: center;
+}
+
+#page #curriculum .container-curriculum a{
+  text-align: center;
+}
+
+#page #curriculum .container-curriculum p{
+  text-align: center;
+}
+
 #page #video .container-video video{
   margin: 0rem;
   max-width: 100%;

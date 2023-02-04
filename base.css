@@ -271,13 +271,16 @@ body{
     padding-top: 2rem;
 }
 
+#page #video .container-video .corso{
+    text-align: center;
+    margin-top: 10rem;
+    
+}
+
 #page #video .container-video video{
     border: 1px solid #FFF500;
     border-radius: 20px;
-    margin: 10rem;
-    max-width: 100%;
-    width:890px;
-    height:500px;
+    max-width: 75%;
 }
 
 
