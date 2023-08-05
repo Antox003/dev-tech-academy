@@ -699,11 +699,8 @@ a.current,a:hover{
 .footer p{
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-}
-
-.footer p{
     color: white;
-} 
+}
 
 .footer p .color{
     color: #FFF500;
