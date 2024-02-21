@@ -318,35 +318,35 @@ body{
     transform: scale(1.1);
 }
 
-/* JS VIDEOCORSO */
-#jstitle{
+/* C VIDEOCORSO */
+#c_title{
     padding-top: 1rem;
     padding-bottom: 1rem;
     height: auto;
 }
 
-#jstitle .title{
+#c_title .title{
     text-align: center;
     font-size: 50px;
     color: #FFF500;
     font-family:'Bebas Neue', cursive ;
 }
 
-#corsojs{
+#c_corso{
     display: flex;
 }
 
-#corsojs .copertina{
+#c_corso .copertina{
     padding-left: 1rem;
 }
 
-#corsojs .copertina img{
+#c_corso .copertina img{
     border: 2px solid #FFF500;
     border-radius: 10px;
     width: 95%;
 }
 
-#corsojs .info{
+#c_corso .info{
     padding-top: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -354,14 +354,14 @@ body{
     align-items: center;
 }
 
-#corsojs .info h3{
+#c_corso .info h3{
     color: #FFF500;
     font-family:'Bebas Neue', cursive;
     font-size: 40px;
     text-align: center;
 }
 
-#corsojs .info p{
+#c_corso .info p{
     color: #ffff;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
@@ -369,12 +369,12 @@ body{
     line-height: 2rem;
 } 
 
-#corsojs .info p a{
+#c_corso .info p a{
     color: #ffff;
     transition: 0.3s;
 } 
 
-#corsojs .info p a:hover{
+#c_corso .info p a:hover{
     color: #FFF500;
     transition: 0.5s;
 } 
