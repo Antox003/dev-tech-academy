@@ -660,17 +660,17 @@ a.current,a:hover{
    transition: 0.2s ease;
 }
 
-#studenti_social .container .dx .facebook{
+#studenti_social .container .dx .threads{
     display: flex;
     justify-content: space-evenly;
     margin-top: 1rem;
 }
 
-#studenti_social .container .dx .facebook img{
+#studenti_social .container .dx .threads img{
     max-width: 12%;
 }
 
-#studenti_social .container .dx .facebook a{
+#studenti_social .container .dx .threads a{
     color: #ffffff; 
     font-family: 'ABeeZee', sans-serif;
     font-size: 23px;
@@ -678,7 +678,7 @@ a.current,a:hover{
     transition: 0.2s ease;
 }
 
-#studenti_social .container .dx .facebook a:hover{
+#studenti_social .container .dx .threads a:hover{
     color: #FFF500;
     transform: scale(1.1);
     transition: 0.2s ease;
