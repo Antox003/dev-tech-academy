@@ -17,7 +17,10 @@ const videoRef = ref(storage, 'video_base/strumenti.mp4');
 
 getDownloadURL(videoRef)
     .then((url)=>{
-        const vid = document.getElementById('video1');
-        vid.setAttribute('src', url);
-        vid.style.display="block";
+        console.log("URL",url);
+
+        if(url != ""){
+            vid.setAttribute('src', url);
+            vid.style.display="block";
+        }
     });
