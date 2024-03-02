@@ -19,7 +19,7 @@ getDownloadURL(videoRef)
     .then((url)=>{
         console.log("URL",url);
 
-        if(url != ""){
+        if(url != " "){
             vid.setAttribute('src', url);
             vid.style.display="block";
         }
