@@ -19,10 +19,8 @@ getDownloadURL(videoRef)
     .then((url)=>{
         console.log("URL", url);
 
-        if(url != ""){
+        if(url == "https://firebasestorage.googleapis.com/v0/b/dev-tech-academy.appspot.com/o/video_base%2Fstrumenti.mp4?alt=media&token=a0e8963e-c598-484c-960a-6933008ae75f"){
             vid.setAttribute("src", url);
             vid.style.display="block";
         }
     });
-
-    //https://firebasestorage.googleapis.com/v0/b/dev-tech-academy.appspot.com/o/video_base%2Fstrumenti.mp4?alt=media&token=a0e8963e-c598-484c-960a-6933008ae75f
