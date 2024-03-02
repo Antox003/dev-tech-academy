@@ -1,5 +1,5 @@
 import {initializeApp} from 'firebase/app';
-import {getDownloadURL, getStorage, ref} from 'firebase/storage';
+import { getStorage, ref, getDownloadURL } from "firebase/storage";
 
 const firebaseApp = initializeApp({
     apiKey: "AIzaSyB9L-TC7iscLbJj1Mte64EGPKFhtZdIW_Y",
@@ -15,12 +15,29 @@ const app = initializeApp(firebaseConfig);
 const storage = getStorage();
 const videoRef = ref(storage, 'video_base/strumenti.mp4');
 
+// Get the download URL
 getDownloadURL(videoRef)
-    .then((url)=>{
-        console.log("URL", url);
+  .then((url) => {
+    
+  })
+  .catch((error) => {
+    // A full list of error codes is available at
+    // https://firebase.google.com/docs/storage/web/handle-errors
+    switch (error.code) {
+      case 'storage/object-not-found':
+        // File doesn't exist
+        break;
+      case 'storage/unauthorized':
+        // User doesn't have permission to access the object
+        break;
+      case 'storage/canceled':
+        // User canceled the upload
+        break;
 
-        if(url == "https://firebasestorage.googleapis.com/v0/b/dev-tech-academy.appspot.com/o/video_base%2Fstrumenti.mp4?alt=media&token=a0e8963e-c598-484c-960a-6933008ae75f"){
-            vid.setAttribute("src", url);
-            vid.style.display="block";
-        }
-    });
+      // ...
+
+      case 'storage/unknown':
+        // Unknown error occurred, inspect the server response
+        break;
+    }
+  });
